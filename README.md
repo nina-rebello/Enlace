@@ -15,8 +15,9 @@ API do projeto Enlace - Organização e Planejamento de Casamentos
 - [Listar Todas as Empresas](#Listar-todas-as-empresas)
 - [Cadastradar Empresa](#Listar-empresa)
 - [Detalhes da Empresa](#Detalhes-da-empresa)
-- [Atualizar Empresa](#Atualizar-empresa)
 - [Remover Empresa](#Remover-empresa)
+- [Atualizar Empresa](#Atualizar-empresa)
+
 
 ## Listar Todas as Empresas
 
@@ -112,7 +113,7 @@ Retorna os detalhes da empresa com o `id` informado como parâmetro de path.
 
 ___
 
-### Apagar Empresa
+### Remover Empresa
 
 `DELETE` /empresa/`{id}`
 
