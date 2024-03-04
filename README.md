@@ -13,7 +13,7 @@ API do projeto Enlace - Organização e Planejamento de Casamentos
 
 ### Endpoints
 - [Listar Todas as Empresas](#Listar-todas-as-empresas)
-- [Cadastradar Empresa](#Listar-empresa)
+- [Cadastrar Empresa](#Cadastrar-empresa)
 - [Detalhes da Empresa](#Detalhes-da-empresa)
 - [Remover Empresa](#Remover-empresa)
 - [Atualizar Empresa](#Atualizar-empresa)
