@@ -1,4 +1,4 @@
-package br.com.enlace.enlace.model;
+package br.com.enlace.model;
 
 import java.util.Random;
 

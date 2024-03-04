@@ -1,6 +1,7 @@
 # Enlace
 API do projeto Enlace - Organização e Planejamento de Casamentos
 
+
 ## Tarefas
 
 - [ ] CRUD de Empresas
@@ -12,16 +13,17 @@ API do projeto Enlace - Organização e Planejamento de Casamentos
 
 ### Endpoints
 - [Listar Todas as Empresas](#Listar-todas-as-empresas)
-- [Cadastradar Empresa](#Listar-empresa)
+- [Cadastrar Empresa](#Cadastrar-empresa)
 - [Detalhes da Empresa](#Detalhes-da-empresa)
-- [Atualizar Empresa](#Atualizar-empresa)
 - [Remover Empresa](#Remover-empresa)
+- [Atualizar Empresa](#Atualizar-empresa)
+
 
 ## Listar Todas as Empresas
 
 `GET` /empresa
 
-Retorna um array com todas as categorias
+Retorna um array com todas as empresas
 
 ### Exemplo de Resposta
 
@@ -107,11 +109,11 @@ Retorna os detalhes da empresa com o `id` informado como parâmetro de path.
 |------|---------|
 |200|Os dados da empresa foram retornados com sucesso
 |401|Acesso negado. Você deve se autenticar
-|404|Não existe categoria com o `id` informado
+|404|Não existe empresa com o `id` informado
 
 ___
 
-### Apagar Empresa
+### Remover Empresa
 
 `DELETE` /empresa/`{id}`
 
@@ -123,7 +125,7 @@ Apaga a empresa com o `id` especificado no parâmetro path.
 |------|---------|
 |200|Os dados da empresa foram retornados com sucesso
 |401|Acesso negado. Você deve se autenticar
-|404|Não existe categoria com o `id` informado
+|404|Não existe empresa com o `id` informado
 
 ___
 
@@ -156,6 +158,6 @@ Altera os dados da empresa especificada no `id`, ultilizando as informações en
 |200|Os dados da empresa foram retornados com sucesso
 |400|Dados enviados são inválidos. Verifique o corpo da requisição
 |401|Acesso negado. Você deve se autenticar
-|404|Não existe categoria com o `id` informado
+|404|Não existe empresa com o `id` informado
 
 ___
